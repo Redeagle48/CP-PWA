@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>CP Horários</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="Os Horários da linha Sintra em todo o lado.">
+
+    <link rel="stylesheet" href="stylesheets/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title header-group">
+            CP - Linha de Sintra
+        </h1>
+        <div class="from header-group">
+            <label class="input-label" for="fromselect">From:</label>
+            <div id="from" class="location"></div>
+        </div>
+        <div class="to header-group">
+            <label class="input-label" for="toselect">To:</label>
+            <div id="to" class="location"></div>
+            <button id="reverse" type="submit"></button>
+        </div>
+        <div class="when header-group">
+            <button class="when-button selected" value="now">
+                <span class="text">Now</span>
+            </button>
+            <button class="when-button" value="weekday">
+                <span class="text">Weekday</span>
+            </button>
+            <button class="when-button" value="saturday">
+                <span class="text">Saturday</span>
+            </button>
+            <button class="when-button" value="sunday">
+                <span class="text">Sunday</span>
+            </button>
+        </div>
+    </header>
+
+
+    <script defer async>
+    </script>
+    <script src="javascripts/app.js"></script>
+</body>
+
+</html>
